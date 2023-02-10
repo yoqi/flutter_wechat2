@@ -2,6 +2,9 @@
 
 A new Wechat project.
 
+flutter: 3.0.5
+dart: 2.17.6
+
 # 功能介绍
 1. wechat_flutter是flutter版微信，目前只支持Android端，功能还在持续迭代，尽量还原原版微信功能，Flutter版本：3.0.0 。
 2. Demo使用leancloud做为后端的SDK，所有数据均为真实有效数据，支持用户注册/登陆，也可以使用测试账号登陆，18202003769 密码 Bb123456。
