@@ -11,7 +11,7 @@ import 'package:skybot/widget/base_scaffold.dart';
 import 'package:skybot/widget/clip_rect_widget.dart';
 import 'package:skybot/widget/common_btn.dart';
 import 'package:skybot/widget/tap_widget.dart';
-import 'package:wecha_assets_picker/wechat_assets_picker.dart';
+import 'package:wechat_assets_picker/wechat_assets_picker.dart';
 import '../../../color/colors.dart';
 import '../../../language/strings.dart';
 import '../../../widget/reorderableitemsview.dart';

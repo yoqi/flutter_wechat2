@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:skybot/controller/member_controller.dart';
 import 'package:skybot/core.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 import 'package:skybot/widget/base_scaffold.dart';
-import 'package:skybot/widget/tap_widget.dart';
-import 'package:skybot_assets_picker/wechat_assets_picker.dart';
 
 import '../../../color/colors.dart';
 import '../../../controller/user_controller.dart';
@@ -12,7 +9,6 @@ import '../../../language/strings.dart';
 import '../../../utils/dialog_util.dart';
 import '../../../widget/avatar_widget.dart';
 import '../../../widget/lable_widget.dart';
-import '../../util/crop_image_page.dart';
 import 'edit_nickname_page.dart';
 
 class UserCenterPage extends StatefulWidget {
