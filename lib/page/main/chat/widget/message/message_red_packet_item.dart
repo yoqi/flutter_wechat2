@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 import 'package:wechat/color/colors.dart';
 import 'package:wechat/core.dart';
 import 'package:wechat/language/strings.dart';
@@ -7,7 +6,6 @@ import 'package:wechat/page/main/chat/model/red_packet_message.dart';
 import 'package:wechat/utils/navigator_utils.dart';
 import 'package:wechat/widget/tap_widget.dart';
 
-import '../../../../../utils/pattern_util.dart';
 import '../../../../../utils/utils.dart';
 import '../../page/red_packet/red_packet_preview_page.dart';
 

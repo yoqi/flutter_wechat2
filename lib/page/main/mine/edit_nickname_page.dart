@@ -2,7 +2,6 @@
 
 import 'package:wechat/core.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:wechat/base/base_view.dart';
 import 'package:wechat/widget/base_scaffold.dart';
 import 'package:wechat/widget/common_btn.dart';
 import 'package:wechat/widget/input_field.dart';

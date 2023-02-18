@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wechat/core.dart';
 import 'package:wechat/utils/navigator_utils.dart';
-import 'package:wechat/widget/base_scaffold.dart';
 import 'package:wechat/widget/common_btn.dart';
 import 'package:wechat/widget/input_field.dart';
 import '../../../../color/colors.dart';

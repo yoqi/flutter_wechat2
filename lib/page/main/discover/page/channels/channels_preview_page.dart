@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:wechat/color/colors.dart';
 import 'package:wechat/page/main/discover/page/channels/widget/channels_item_widget.dart';
 import 'package:wechat/widget/base_scaffold.dart';
 import 'package:wechat/widget/status_bar_padding_layout.dart';

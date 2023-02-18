@@ -1,11 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:wechat/controller/member_controller.dart';
 import 'package:wechat/core.dart';
 import 'package:wechat/utils/navigator_utils.dart';
 import 'package:wechat/widget/base_scaffold.dart';
-import 'package:wechat/widget/tap_widget.dart';
-import 'package:wechat_assets_picker/wechat_assets_picker.dart';
 
 import '../../../color/colors.dart';
 import '../../../controller/user_controller.dart';
@@ -13,7 +10,6 @@ import '../../../language/strings.dart';
 import '../../../utils/dialog_util.dart';
 import '../../../widget/avatar_widget.dart';
 import '../../../widget/lable_widget.dart';
-import '../../util/crop_image_page.dart';
 import 'edit_nickname_page.dart';
 
 class UserCenterPage extends StatefulWidget {

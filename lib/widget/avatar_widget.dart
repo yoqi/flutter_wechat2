@@ -2,6 +2,7 @@ import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
 import 'package:wechat/core.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+// ignore: unused_import
 import '../color/colors.dart';
 import '../utils/utils.dart';
 

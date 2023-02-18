@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:wechat/base/base_view.dart';
 import 'package:wechat/color/colors.dart';
 import 'package:wechat/core.dart';
-import 'package:wechat/utils/dialog_util.dart';
 import 'package:wechat/utils/navigator_utils.dart';
 import 'package:wechat/widget/base_scaffold.dart';
 import 'package:wechat/widget/tap_widget.dart';

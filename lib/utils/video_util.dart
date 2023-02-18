@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:video_compress/video_compress.dart';
-import 'package:wechat/core.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
 import 'package:wechat/utils/file_utils.dart';
 

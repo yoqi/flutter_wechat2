@@ -11,7 +11,6 @@ import 'package:wechat/widget/common_btn.dart';
 import 'package:helpers/helpers.dart' show OpacityTransition, SwipeTransition, AnimatedInteractiveViewer;
 import '../../../../../language/strings.dart';
 import '../../../../../utils/navigator_utils.dart';
-import 'channels_create_page.dart';
 
 class ChannelsVideoEditPage extends StatefulWidget {
 

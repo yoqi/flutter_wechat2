@@ -1,7 +1,6 @@
 import 'package:extended_text_field/extended_text_field.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:wechat/page/util/webview_page.dart';
 import 'package:wechat/utils/navigator_utils.dart';
 import 'package:wechat/utils/utils.dart';

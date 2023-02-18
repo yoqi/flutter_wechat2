@@ -6,7 +6,6 @@ import 'package:wechat/color/colors.dart';
 import 'package:wechat/controller/user_controller.dart';
 import 'package:wechat/page/main/discover/page/channels/channels_preview_page.dart';
 import 'package:wechat/page/main/discover/page/channels/channels_select_cover_page.dart';
-import 'package:wechat/page/util/video_perview_page.dart';
 import 'package:wechat/widget/avatar_widget.dart';
 import 'package:wechat/widget/base_scaffold.dart';
 import 'package:wechat/core.dart';
