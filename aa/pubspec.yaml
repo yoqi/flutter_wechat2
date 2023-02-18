@@ -9,9 +9,150 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+
+  flutter_baidu_mapapi_map: ^3.2.0
+  flutter_baidu_mapapi_search: ^3.2.0
+  flutter_baidu_mapapi_utils: ^3.2.0
+  flutter_bmflocation: ^3.1.0
+  flustars: ^2.0.1
+  # https://github.com/Sky24n/sp_util
+  get: ^4.6.1
+  sprintf: ^6.0.0
+  package_info_plus: ^1.4.2
+  font_awesome_flutter: ^10.1.0
+  flutter_smart_dialog: ^3.4.2+2
+  permission_handler: ^9.2.0
+  image_picker: ^0.8.4+2
+  cached_network_image: ^3.1.0
+  # https://github.com/renefloor/flutter_cached_network_image
+  extended_image_library: ^3.1.2
+  extended_image: ^6.0.3
+  icons_launcher: ^1.1.0
+  #微信选图
+  wechat_assets_picker: ^7.1.2
+  #微信拍照
+  wechat_camera_picker: ^3.4.0
+
+  leancloud_storage: ^0.7.8
+  leancloud_official_plugin: ^1.0.1
+
+  # Flutter 城市列表，联系人列表，索引&悬停 https://github.com/flutterchina/azlistview
+  azlistview: ^2.0.0
+  # Dart 汉字转拼音 https://github.com/flutterchina/lpinyin
+  lpinyin: ^2.0.3
+  #https://pub.dev/packages/webview_flutter
+  webview_flutter: ^2.0.3
+
+  event_bus:  ^2.0.0
+  #桌面长按快捷操作
+  shortcut: ^0.0.1
+  uuid: ^3.0.6
+  #pop菜单
+  custom_pop_up_menu: ^1.2.2
+  #生成二维码
+  qr_flutter: ^4.0.0
+  #保存图片到手机
+  image_gallery_saver: ^1.7.1
+  #录音 todo 版本低
+  flutter_audio_recorder2: ^0.0.2
+  #震动
+  flutter_vibrate: ^1.3.0
+  #富文本输入
+  extended_text_field: ^10.1.0
+  #多样式表格布局
+  flutter_staggered_grid_view: ^0.4.0
+  #滚动到指定位置
+  scroll_to_index: ^2.1.1
+
+  url_launcher: ^6.0.12
+  #选择文件
+  file_picker: ^4.6.1
+  #地图导航
+  map_launcher: ^2.2.3
+  #图片压缩
+  flutter_luban: ^0.1.13
+  #网络请求
+  dio: ^4.0.6
+  #下拉刷新
+  pull_to_refresh: ^2.0.0
+  #扫一扫
+  qr_code_scanner:
+    git:
+      url: https://github.com/LeeeYudE/qr_code_scanner.git
+      ref: 36278bf
+  #生物验证
+  flutter_local_auth_invisible: ^2.2.0
+  #图片裁剪
+  crop_your_image: ^0.7.2
+  #播放视频
+  video_player: ^2.4.2
+  #播放视频
+  chewie: ^1.3.4
+  #视频压缩
+  video_compress: 3.1.0
+  #获取图片宽高
+  image_size_getter: ^2.1.2
+  #折叠文本
+  expandable_text: ^2.3.0
+  #lottie动画
+  lottie: ^1.2.2
+  #传感器
+  sensors_plus: ^1.3.3
+  #音频播放
+  audioplayers: 0.20.1
+  #视频编辑
+  video_editor: ^1.4.1
+  helpers: ^1.1.4
+  #视频播放器
+  better_player: ^0.0.81
+  #点赞按钮
+  like_button: ^2.0.4
+  #分享
+  share_plus: ^4.0.10
+
+  easy_refresh: 3.0.4+2
+  #打开文件
+  open_file: ^3.2.1
+  #格式化文件大小
+  filesize: ^2.0.1
+  #通知
+  flutter_local_notifications: 9.6.0
+  flutter_localizations:
+    sdk: flutter
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+flutter_icons:
+  image_path: 'assets/images/icon/ic_launcher.png'
+  ios: true
+  android: true
+
+dependency_overrides:
+  collection: ^1.15.0
+  xml: 6.0.0
+  visibility_detector: ^0.3.3
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: font
+      fonts:
+        - asset: assets/font/font.ttf
+          style: normal
+  assets:
+    - assets/images/
+    - assets/images/bg/
+    - assets/images/icon/
+    - assets/images/tabbar/
+    - assets/images/avatar/
+    - assets/images/chat/
+    - assets/images/mine/
+    - assets/images/discover/
+    - assets/images/contact/
+    - assets/images/scan/
+    - assets/images/emoji/
+    - assets/json/
+    - assets/lottie/
+    - assets/audio/
