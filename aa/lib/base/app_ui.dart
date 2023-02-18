@@ -3,7 +3,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../color/colors.dart';
 import '../language/strings.dart';
 import '../utils/utils.dart';
-import '../widget/load_widget.dart';
 import 'package:skybot/core.dart';
 
 import '../widget/lottie_widget.dart';

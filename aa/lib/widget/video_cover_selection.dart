@@ -80,10 +80,12 @@ class _VideoCoverSelectionState extends State<VideoCoverSelection>
 
   void _scaleRect() {
     _rect.value = _calculateCoverRect();
+    // todo
     _transform.value = TransformData.fromRect(
       _rect.value,
       _layout,
-      widget.controller,
+      Size(40, 40),
+      widget.controller
     );
 
     if (widget.controller.preferredCropAspectRatio != null &&

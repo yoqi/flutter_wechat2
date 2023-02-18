@@ -7,6 +7,7 @@ import 'package:skybot/page/util/video_perview_page.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 import 'package:skybot/widget/tap_widget.dart';
 import '../base/constant.dart';
+import '../main.dart';
 import 'cache_image_widget.dart';
 
 class ScaleSizeVideoWidget extends StatefulWidget {
