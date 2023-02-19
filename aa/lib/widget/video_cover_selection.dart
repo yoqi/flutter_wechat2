@@ -112,10 +112,10 @@ class _VideoCoverSelectionState extends State<VideoCoverSelection>
             .inMilliseconds
         : widget.controller.videoDuration.inMilliseconds;
     final double eachPart = duration / widget.quantity;
-    final List<CoverData> _byteList = [];
+    final List<CoverData> byteList = [];
     for (int i = 0; i < widget.quantity; i++) {
       try {
-        final CoverData _bytes = await widget.controller.generateCoverThumbnail(
+        final CoverData bytes = await widget.controller.generateCoverThumbnail(
             timeMs: (widget.controller.isTrimmmed
                     ? (eachPart * i) +
                         widget.controller.startTrim.inMilliseconds
@@ -123,19 +123,19 @@ class _VideoCoverSelectionState extends State<VideoCoverSelection>
                 .toInt(),
             quality: widget.quality);
 
-        if (_bytes.thumbData != null) {
-          _byteList.add(_bytes);
+        if (bytes.thumbData != null) {
+          byteList.add(bytes);
           if (i == 0) {
-            widget.controller.updateSelectedCover(_bytes);
+            widget.controller.updateSelectedCover(bytes);
           }
         }
       } catch (e) {
         debugPrint(e.toString());
       }
 
-      yield _byteList;
+      yield byteList;
     }
-    currentCover ??= _byteList.first;
+    currentCover ??= byteList.first;
   }
 
   Rect _calculateCoverRect() {
@@ -192,23 +192,23 @@ class _VideoCoverSelectionState extends State<VideoCoverSelection>
                             itemCount: data!.length,
                             itemBuilder: (BuildContext context, int index) {
                               final CoverData coverData = data[index];
-                              final _key =
+                              final key =
                                   GlobalKey(debugLabel: index.toString());
                               return ValueListenableBuilder(
                                   valueListenable:
                                       widget.controller.selectedCoverNotifier,
-                                  key: _key,
+                                  key: key,
                                   builder:
                                       (context, CoverData? selectedCover, __) {
                                     return InkWell(
                                         onTap: () {
                                           widget.controller
                                               .updateSelectedCover(coverData);
-                                          final _renderBox = _key.currentContext
+                                          final renderBox = key.currentContext
                                                   ?.findRenderObject()
                                               as RenderBox?;
-                                          if (_renderBox != null) {
-                                            left = _renderBox
+                                          if (renderBox != null) {
+                                            left = renderBox
                                                     .localToGlobal(Offset.zero)
                                                     .dx -
                                                 20.w;

@@ -31,7 +31,7 @@ class AppUI extends AbstractAppUI {
     return GestureDetector(
       behavior: HitTestBehavior.translucent,
       onTap: refreshCallback,
-      child: Container(
+      child: SizedBox(
         width: double.infinity,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -60,22 +60,20 @@ class AppUI extends AbstractAppUI {
 
   @override
   Widget errorPage(BuildContext context, VoidCallback refreshCallback) {
-    return Container(
-      child: Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Spacer(flex: 1),
-            Text(
-              '网络异常',
-              style: TextStyle(
-                  color: Colours.primaryColor(context), fontSize: 32.sp),
-            ),
-            const Spacer(flex: 2),
-          ],
-        ),
+    return Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          const Spacer(flex: 1),
+          Text(
+            '网络异常',
+            style: TextStyle(
+                color: Colours.primaryColor(context), fontSize: 32.sp),
+          ),
+          const Spacer(flex: 2),
+        ],
       ),
     );
   }
