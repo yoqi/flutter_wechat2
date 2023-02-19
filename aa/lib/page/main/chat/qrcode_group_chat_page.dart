@@ -11,10 +11,8 @@ import 'package:skybot/utils/navigator_utils.dart';
 import 'package:skybot/widget/base_scaffold.dart';
 import 'package:skybot/widget/tap_widget.dart';
 import '../../../color/colors.dart';
-import '../../../controller/user_controller.dart';
 import '../../../language/strings.dart';
 import '../../../utils/utils.dart';
-import '../../../widget/avatar_widget.dart';
 import '../../../widget/dialog/dialog_bottom_widget.dart';
 
 ///群聊二维码

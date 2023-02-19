@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'base_getx.dart';
-import 'common_state_widget_x.dart';
 
 ///获取controller的 baseView, 这里要在路由里声明 controller
 abstract class BaseView<T> extends GetView<T> {

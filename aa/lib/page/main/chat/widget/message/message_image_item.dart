@@ -1,15 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:leancloud_official_plugin/leancloud_plugin.dart';
-import 'package:skybot/color/colors.dart';
-import 'package:skybot/core.dart';
-import 'package:skybot/page/util/photo_preview_page.dart';
 import 'package:skybot/widget/scale_size_image_widget.dart';
-import 'package:skybot/widget/tap_widget.dart';
 
-import '../../../../../controller/auido_manager.dart';
-import '../../../../../utils/navigator_utils.dart';
-import 'audio_play_item.dart';
 
 class MessageImageItem extends StatelessWidget {
   ImageMessage message;

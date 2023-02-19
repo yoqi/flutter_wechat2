@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:video_compress/video_compress.dart';
-import 'package:skybot/core.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
 import 'package:skybot/utils/file_utils.dart';
 

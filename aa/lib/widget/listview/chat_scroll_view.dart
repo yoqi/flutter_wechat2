@@ -10,8 +10,6 @@ import 'package:flutter/rendering.dart';
 
 import '../sliding_up_panel.dart';
 import 'chat_scrollable.dart';
-import 'panel_scrollable.dart';
-
 
 // Examples can assume:
 // late int itemCount;

@@ -1,5 +1,4 @@
 import 'package:skybot/base/constant.dart';
-import 'package:skybot/core.dart';
 import 'package:flutter/material.dart';
 import 'package:skybot/page/util/photo_preview_page.dart';
 import 'package:skybot/widget/cache_image_widget.dart';

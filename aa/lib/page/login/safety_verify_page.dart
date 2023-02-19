@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skybot/core.dart';
 import 'package:skybot/page/login/verify_machine_page.dart';
-import 'package:skybot/page/login/widget/verify_machine_widget.dart';
 import 'package:skybot/widget/common_btn.dart';
 import '../../color/colors.dart';
 import '../../language/strings.dart';

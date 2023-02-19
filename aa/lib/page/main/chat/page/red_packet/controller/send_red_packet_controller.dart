@@ -10,7 +10,6 @@ import 'package:skybot/utils/navigator_utils.dart';
 import '../../../../../../language/strings.dart';
 import '../../../model/red_packet_message.dart';
 import '../../pay_password/pay_password_page.dart';
-import '../send_red_packet_page.dart';
 import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 
 class SendRedPacketController extends BaseXController {

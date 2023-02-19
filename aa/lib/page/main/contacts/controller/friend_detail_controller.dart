@@ -1,18 +1,14 @@
 import 'package:flustars/flustars.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:leancloud_storage/leancloud.dart';
 import 'package:skybot/base/base_getx.dart';
 import 'package:skybot/base/constant.dart';
-import 'package:skybot/controller/chat_manager_controller.dart';
 import 'package:skybot/controller/member_controller.dart';
-import 'package:skybot/controller/user_controller.dart';
 import 'package:skybot/core.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 
 import '../../../../controller/friend_controller.dart';
 import '../../../../language/strings.dart';
-import '../friend_detail_page.dart';
 
 class FriendDetailController extends BaseXController {
   late String username;

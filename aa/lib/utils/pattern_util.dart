@@ -1,7 +1,6 @@
 import 'package:extended_text_field/extended_text_field.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:skybot/page/util/webview_page.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 import 'package:skybot/utils/utils.dart';

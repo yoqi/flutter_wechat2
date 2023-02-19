@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skybot/core.dart';
 import 'package:skybot/utils/navigator_utils.dart';
-import 'package:skybot/widget/base_scaffold.dart';
 import 'package:skybot/widget/common_btn.dart';
 import 'package:skybot/widget/input_field.dart';
 import '../../../../color/colors.dart';

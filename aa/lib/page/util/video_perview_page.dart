@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:skybot/base/base_view.dart';
 import 'package:skybot/color/colors.dart';
 import 'package:skybot/core.dart';
-import 'package:skybot/utils/dialog_util.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 import 'package:skybot/widget/base_scaffold.dart';
 import 'package:skybot/widget/tap_widget.dart';

@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_baidu_mapapi_map/flutter_baidu_mapapi_map.dart';
 import 'package:skybot/base/common_state_widget_x.dart';
-import 'package:skybot/base/constant.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 import 'package:skybot/utils/utils.dart';
 import 'package:skybot/widget/common_btn.dart';

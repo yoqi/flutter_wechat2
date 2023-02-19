@@ -1,5 +1,4 @@
 import 'package:skybot/core.dart';
-import 'package:map_launcher/map_launcher.dart' as MapType;
 import 'package:map_launcher/map_launcher.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 import '../widget/dialog/dialog_bottom_widget.dart';

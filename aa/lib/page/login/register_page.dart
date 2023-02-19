@@ -16,7 +16,6 @@ import '../../base/constant.dart';
 import '../../language/strings.dart';
 
 import '../../utils/utils.dart';
-import '../util/crop_image_page.dart';
 
 class RegisterPage extends BaseGetBuilder<RegisterController> {
   static const String routeName = '/RegisterPage';

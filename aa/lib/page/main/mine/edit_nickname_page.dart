@@ -1,6 +1,5 @@
 import 'package:skybot/core.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:skybot/base/base_view.dart';
 import 'package:skybot/widget/base_scaffold.dart';
 import 'package:skybot/widget/common_btn.dart';
 import 'package:skybot/widget/input_field.dart';

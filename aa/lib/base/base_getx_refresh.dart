@@ -1,8 +1,5 @@
-import 'package:skybot/core.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:leancloud_storage/leancloud.dart';
-import 'package:skybot/utils/dialog_util.dart';
 
 import 'base_getx.dart';
 import 'constant.dart';

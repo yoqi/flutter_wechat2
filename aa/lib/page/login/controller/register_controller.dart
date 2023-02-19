@@ -8,7 +8,6 @@ import 'package:skybot/core.dart';
 import 'package:skybot/utils/navigator_utils.dart';
 
 import '../../../language/strings.dart';
-import '../../../utils/md5_utils.dart';
 import '../model/zone_code.dart';
 import '../register_success_page.dart';
 import '../safety_verify_page.dart';

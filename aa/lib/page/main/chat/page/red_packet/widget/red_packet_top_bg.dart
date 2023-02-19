@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:skybot/color/colors.dart';
 import 'package:skybot/core.dart';
 
-import '../controller/red_packet_controller.dart';
 
 class RedPacketTopBg extends CustomPainter {
   late final Paint _paint = Paint()..isAntiAlias = true;

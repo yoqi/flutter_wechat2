@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:flustars/flustars.dart';
-import 'package:sprintf/sprintf.dart';
 import 'package:intl/intl.dart';
 export 'package:common_utils/common_utils.dart';
 

@@ -6,7 +6,6 @@ import 'package:skybot/color/colors.dart';
 import 'package:skybot/controller/user_controller.dart';
 import 'package:skybot/page/main/discover/page/channels/channels_preview_page.dart';
 import 'package:skybot/page/main/discover/page/channels/channels_select_cover_page.dart';
-import 'package:skybot/page/util/video_perview_page.dart';
 import 'package:skybot/widget/avatar_widget.dart';
 import 'package:skybot/widget/base_scaffold.dart';
 import 'package:skybot/core.dart';

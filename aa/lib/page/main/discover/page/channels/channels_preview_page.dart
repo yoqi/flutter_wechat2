@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:skybot/color/colors.dart';
 import 'package:skybot/page/main/discover/page/channels/widget/channels_item_widget.dart';
 import 'package:skybot/widget/base_scaffold.dart';
 import 'package:skybot/widget/status_bar_padding_layout.dart';

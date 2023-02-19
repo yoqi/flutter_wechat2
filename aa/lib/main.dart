@@ -8,7 +8,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
 import 'package:leancloud_official_plugin/leancloud_plugin.dart';
-import 'package:skybot/base/constant.dart';
 import 'package:skybot/controller/friend_controller.dart';
 import 'package:skybot/controller/member_controller.dart';
 import 'package:skybot/page/main/chat/model/red_packet_message.dart';

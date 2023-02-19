@@ -9,7 +9,6 @@ import 'package:skybot/page/main/main_page.dart';
 
 import '../base/base_getx.dart';
 import '../utils/navigator_utils.dart';
-import 'jmessage_manager.dart';
 import 'member_controller.dart';
 
 class UserController extends BaseXController {

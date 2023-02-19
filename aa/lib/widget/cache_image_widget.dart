@@ -1,11 +1,9 @@
 import 'dart:io';
-
-import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
 import 'package:skybot/core.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../color/colors.dart';
-import '../utils/utils.dart';
+
 
 class CacheImageWidget extends StatelessWidget {
   final String? url;

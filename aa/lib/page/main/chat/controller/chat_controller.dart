@@ -5,7 +5,6 @@ import 'package:flutter_baidu_mapapi_search/flutter_baidu_mapapi_search.dart';
 import 'package:get/get.dart';
 import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 import 'package:leancloud_storage/leancloud.dart';
-import 'package:video_compress/video_compress.dart';
 import 'package:skybot/base/base_getx.dart';
 import 'package:skybot/base/constant.dart';
 import 'package:skybot/controller/auido_manager.dart';

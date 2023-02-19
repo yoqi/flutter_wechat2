@@ -1,4 +1,3 @@
-import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
 import 'package:leancloud_official_plugin/leancloud_plugin.dart';
 import 'package:skybot/controller/member_controller.dart';

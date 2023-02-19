@@ -16,7 +16,6 @@ import 'package:skybot/widget/refresh/refresh_widget.dart';
 import 'package:skybot/widget/tap_widget.dart';
 
 import '../../../language/strings.dart';
-import '../../../widget/my_children_delegate.dart';
 import 'controller/friend_circle_controller.dart';
 
 class FriendCirclePage extends BaseGetBuilder<FriendCircleController> {
