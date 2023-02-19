@@ -48,6 +48,7 @@ void main() async {
 }
 
 void initAndroid() {
+  // 状态栏透明
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
       statusBarBrightness: Brightness.dark));
